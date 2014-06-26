@@ -1,0 +1,61 @@
+name = Silver Arrows package
+description = Default Silver arrows installation profile
+version = VERSION
+core = 7.x
+
+; base
+dependencies[] = content_type_page
+dependencies[] = content_type_article
+dependencies[] = config_wysiwyg
+
+; distro
+dependencies[] = distro_sa_settings
+
+; contrib dependencies
+dependencies[] = block
+dependencies[] = block_class
+dependencies[] = contextual
+dependencies[] = ctools
+dependencies[] = dblog
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = features
+dependencies[] = field_collection
+dependencies[] = field_group 
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = googleanalytics
+dependencies[] = image
+dependencies[] = image_url_formatter
+dependencies[] = imce
+dependencies[] = imce_wysiwyg
+dependencies[] = list
+dependencies[] = login_destination
+dependencies[] = menu
+dependencies[] = metatag
+dependencies[] = module_filter
+dependencies[] = node_reference
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = references
+dependencies[] = shortcut
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = toolbar
+dependencies[] = views
+dependencies[] = views_ui
+dependencies[] = webform
+dependencies[] = wysiwyg
+dependencies[] = xmlsitemap
+dependencies[] = jquery_update
+
+; Information added by Drupal.org packaging script on 2014-05-08
+version = "7.28"
+project = "drupal"
+datestamp = "1399522731"
+
